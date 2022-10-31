@@ -1,0 +1,7 @@
+.conts{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2';
+    text-align: center;
+}

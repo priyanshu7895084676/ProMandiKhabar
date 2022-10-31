@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirgaon update</title>
+   
+    <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/mandi-news-5a86b.appspot.com/o/css%2Fupdate.css?alt=media&token=134553cd-04ec-430f-88a9-9dbb95781fba">
+   
+   
+
+<body>
+    {{>header}}
+    {{>adsence}}
+
+    <div class="container">
+
+
+        <table id="table" border="1" autocomplete="off">
+            <tr>
+                <td colspan="6">
+                    <h1>  Vegtable mandi </h1>
+                </td>
+            </tr>
+            <tr id="tableheading">
+                <th>Crop (फसल)
+                </th>
+                <th>Price( कीमत)
+                </th>
+                <th>Unit(इकाई)
+                </th>
+                <th>update button
+                </th>
+            </tr>
+
+            <form action="/uttarpradesh/Chirgaon" method="POST">
+                <tr class="tomoto">
+                    <input type="hidden" value="tomato" name="id">
+                    <input type="hidden" value="farrukhabadcity" name="districname">
+                    <td id="tomoto">Tomato (टमाटर )</td>
+                    <td><input class="inputbox" type="text" id="tomatoprice" value="{{data.tomato.tomatoprice}}" name="tomatoprice"></td>
+                    <td><input class="inputbox" type="text" id="tomatounit" value="{{data.tomato.tomatounit}}" name="tomatounit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+            </form>
+            </tr>
+            <form action="/uttarpradesh/Chirgaon" method="POST">
+                <tr class="onion">
+                    <input type="hidden" value="onion" name="id">
+                    <input type="hidden" value="farrukhabadcity" name="districname">
+                    <td id="onion"> Onion (प्याज)</td>
+                    <td><input class="inputbox" value="{{data.onion.onionprice}}" name="onionprice"></td>
+                    <td><input class="inputbox" value="{{data.onion.onionunit}}" name="onionunit"></td>
+                    <td><button  id="tomatobtn"> update</button></td>
+            </form>
+            </tr>
+            <tr class="turnip">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="turnip" name="id">
+                    <td id="turnip">Turnip ( शलजम )</td>
+                    <td><input class="inputbox" value="{{data.turnip.turnipprice}}" name="turnipprice"></td>
+                    <td><input class="inputbox" value="{{data.turnip.turnipunit}}" name="turnipunit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class=" turmerc">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="turmeric" name="id">
+                    <td id="turmeric">Turmeric (हल्दी )</td>
+                    <td><input class="inputbox" value="{{data.turmeric.turmericprice}}" name="turmericprice"></td>
+                    <td><input class="inputbox" value="{{data.turmeric.turmericunit}}" name="turmericunit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="sweetpotato">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="sweetpotato" name="id">
+                    <td id="sweetpotato">Sweet Potato(शकरकंद )</td>
+
+                    <td><input class="inputbox" value="{{data.sweetpotato.sweetpotatoprice}}" name="sweetpotatoprice"></td>
+                    <td><input class="inputbox" value="{{data.sweetpotato.sweetpotatounit}}" name="sweetpotatounit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="potato">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="yellowpotato" name="id">
+                    <td id="yellowpotato">Yellow potato पीला आलू</td>
+                    <td><input class="inputbox" value="{{data.yellowpotato.yellowpotatoprice}}" name="yellowpotatoprice"></td>
+                    <td><input class="inputbox" value="{{data.yellowpotato.yellowpotatounit}}" name="yellowpotatounit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="potato">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="whitepotato" name="id">
+                    <td id="whitepotato">White potato सफेद आलू</td>
+                    <td><input class="inputbox" value="{{data.whitepotato.whitepotatoprice}}" name="whitepotatoprice"></td>
+                    <td><input class="inputbox" value="{{data.whitepotato.whitepotatounit}}" name="whitepotatounit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="potato">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="redpotato" name="id">
+                    <td id="redpotato">Red potato लाल आलू</td>
+                    <td><input class="inputbox" value="{{data.redpotato.redpotatoprice}}" name="redpotatoprice"></td>
+                    <td><input class="inputbox" value="{{data.redpotato.redpotatounit}}" name="redpotatounit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class=" springonion">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="springonion" name="id">
+                    <td id="springonion"> Spring Onion(हरा प्याज, गंठा)</td>
+                    <td><input class="inputbox" value="{{data.springonion.springonionprice}}" name="springonionprice"></td>
+                    <td><input class="inputbox" value="{{data.springonion.springonionunit}}" name="springonionunit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="spinch">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="spianch" name="id">
+                    <td id="spinch">Spinach (पालक )</td>
+                    <td><input class="inputbox" value="{{data.spianch.spianchprice}}" name="spianchprice"></td>
+                    <td><input class="inputbox" value="{{data.spianch.spianchunit}}" name="spianchunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="pumpkin">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="pumpkin" name="id">
+                    <td id="pumpkin"> Pumpkin (घिया, कद्दू )</td>
+                    <td><input class="inputbox" value="{{data.pumpkin.pumpkinprice}}" name="pumpkinprice"></td>
+                    <td><input class="inputbox" value="{{data.pumpkin.pumpkinunit}}" name="pumpkinunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="garlic">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="garlic" name="id">
+                    <td id "garlic">Garlic (लहशुन)</td>
+                    <td><input class="inputbox" value="{{data.garlic.garlicprice}}" name="garlicprice"></td>
+                    <td><input class="inputbox" value="{{data.garlic.garlicunit}}" name="garlicunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="fenugreekleaf">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="fenugeekleaf" name="id">
+                    <td id="fenugeekleaf">Fenugreek Leaf (हरी मेथी)</td>
+                    <td><input class="inputbox" value="{{data.fenugeekleaf.fenugeekleafprice}}" name="fenugeekleafprice"></td>
+                    <td><input class="inputbox" value="{{data.fenugeekleaf.fenugeekleafunit}}" name="fenugeekleafunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="ginger">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="ginger" name="id">
+                    <td id="ginger"> Ginger ( अदरक)</td>
+                    <td><input class="inputbox" value="{{data.ginger.gingerprice}}" name="gingerprice"></td>
+                    <td><input class="inputbox" value="{{data.ginger.gingerunit}}" name="gingerunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="greenchilli">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="greenchilli" name="id">
+                    <td class="greenchilli"> Green Chilli ( हरी मिर्च)</td>
+                    <td><input class="inputbox" value="{{data.greenchilli.greenchilliprice}}" name="greenchilliprice"></td>
+                    <td><input class="inputbox" value="{{data.greenchilli.greenchilliunit}}" name="greenchilliunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class=" radish">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="radish" name="id">
+                    <td id="radish">Radish (मूली)</td>
+                    <td><input class="inputbox" value="{{data.radish.radishprice}}" name="radishprice"></td>
+                    <td><input class="inputbox" value="{{data.radish.radishunit}}" name="radishunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="jackfruit">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="jackfruit" name="id">
+                    <td id="jackfruit">Jackfruit ( कटहल)</td>
+                    <td><input class="inputbox" value="{{data.jackfruit.jackfruitprice}}" name="jackfruitprice"></td>
+                    <td><input class="inputbox" value="{{data.jackfruit.jackfruitunit}}" name="jackfruitunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="ladyfinger">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="ladyfinger" name="id">
+                    <td id="ladyfinger">Lady Finger (भिन्डी )</td>
+                    <td><input class="inputbox" value="{{data.ladyfinger.ladyfingerprice}}" name="ladyfingerprice"></td>
+                    <td><input class="inputbox" value="{{data.ladyfinger.ladyfingerunit}}" name="ladyfingerunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="pointedgourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="pointedgourd" name="id">
+                    <td id="pointedgourd">Pointed Gourd (परवल, पटल)</td>
+                    <td><input class="inputbox" value="{{data.pointedgourd.pointedgourdprice}}" name="pointedgourdprice"></td>
+                    <td><input class="inputbox" value="{{data.pointedgourd.pointedgourdunit}}" name="pointedgourdunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="ridgedgourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="ridgedgourd" name="id">
+                    <td>Ridged Gourd (तोरी, झींगी)</td>
+                    <td><input class="inputbox" value="{{data.ridgedgourd.ridgedgourdprice}}" name="ridgedgourdprice"></td>
+                    <td><input class="inputbox" value="{{data.ridgedgourd.ridgedgourdunit}}" name="ridgedgourdunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="peas">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="peas" name="id">
+                    <td id="peas">peanut (मूंगफली)</td>
+                    <td><input class="inputbox" value="{{data.peas.peasprice}}" name="peasprice"></td>
+                    <td><input class="inputbox" value="{{data.peas.peasunit}}" name="peasunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="cucumber">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="cucumber" name="id">
+                    <td id="cucumber">Cucumber (खीरा)</td>
+                    <td><input class="inputbox" value="{{data.cucumber.cucumberprice}}" name="cucumberprice"></td>
+                    <td><input class="inputbox" value="{{data.cucumber.cucumberunit}}" name="cucumberunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="coriander">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="corianderleaf" name="id">
+                    <td id="coriander "> Coriander Leaf (हरा धनिया पत्ता)</td>
+                    <td><input class="inputbox" value="{{data.corianderleaf.corianderleafprice}}" name="corianderleafprice"></td>
+                    <td><input class="inputbox" value="{{data.corianderleaf.corianderleafunit}}" name="corianderleafunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+
+            <tr class="cauliflower">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="cauliflower" name="id">
+                    <td id="cauliflower">Cauliflower ( फूल गोभी)</td>
+                    <td><input class="inputbox" value="{{data.cauliflower.cauliflowerprice}}" name="cauliflowerprice"></td>
+                    <td><input class="inputbox" value="{{data.cauliflower.cauliflowerunit}}" name="cauliflowerunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="carrot">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="carrot" name="id">
+                    <td id="carrot"> Carrot ( गाजर )</td>
+
+                    <td><input class="inputbox" value="{{data.carrot.carrotprice}}" name="carrotprice"></td>
+                    <td><input class="inputbox" value="{{data.carrot.carrotunit}}" name="carrotunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="capsion">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="capsicum" name="id">
+                    <td id="capsion">Capsicum( शिमला मिर्च )</td>
+                    <td><input class="inputbox" value="{{data.capsicum.capsicumprice}}" name="capsicumprice"></td>
+                    <td><input class="inputbox" value="{{data.capsicum.capsicumunit}}" name="capsicumunit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+
+            </tr>
+            <tr class="cabbage">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="cabbage" name="id">
+                    <td id="cabbage"> Cabbage( पत्ता गोभी )</td>
+                    <td><input class="inputbox" value="{{data.cabbage.cabbageprice}}" name="cabbageprice"></td>
+                    <td><input class="inputbox" value="{{data.cabbage.cabbageunit}}" name="cabbageunit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+
+            </tr>
+            <tr class="brinjal">
+                <td id="brinjal">Brinjal ( बैगन)</td>
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="brinjal" name="id">
+                    <td><input class="inputbox" value="{{data.brinjal.brinjalprice}}" name="brinjalprice"></td>
+                    <td><input class="inputbox" value="{{data.brinjal.brinjalunit}}" name="brinjalunit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+
+            </tr> 
+            <tr class="bottlegourd"> 
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="bottlegourd" name="id">
+                    <td id="bottlegourd">Bottle Gourd ( लौकी,)</td>
+                    <td><input class="inputbox" value="{{data.bottlegourd.bottlegourdprice}}" name="bottlegourdprice"></td>
+                    <td><input class="inputbox" value="{{data.bottlegourd.bottlegourdunit}}" name="bottlegourdunit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+
+            </tr>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="bittergourd" name="id">
+                    <td class="bittergourd"> Bitter Gourd ( करेला )</td>
+                    <td><input class="inputbox" value="{{data.bittergourd.bittergourdprice}}" name="bittergourdprice"></td>
+                    <td><input class="inputbox" value="{{data.bittergourd.bittergourdunit}}" name="bittergourdunit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="v1" name="id">
+                    <td class="bittergourd"> <input class="inputbox" value="" name="v1crop"></td>
+                    <td><input class="inputbox" value="{{data.v1.v1price}}" name="v1price"></td>
+                    <td><input class="inputbox" value="{{data.v1.v1unit}}" name="v1unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="v2" name="id">
+                    <td class="bittergourd"> <input class="inputbox" value="" name="v2crop"></td>
+                    <td><input class="inputbox" value="{{data.v2.v2price}}" name="v1price"></td>
+                    <td><input class="inputbox" value="{{data.v2.v2unit}}" name="v2unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="v3" name="id">
+                    <td class="bittergourd"> <input class="inputbox" value="" name="v3crop"></td>
+                    <td><input class="inputbox" value="{{data.v3.v3price}}" name="v3price"></td>
+                    <td><input class="inputbox" value="{{data.v3.v3unit}}" name="v3unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="v4" name="id">
+                    <td class="bittergourd"> <input class="inputbox" value="{{data.v4.v4crop}}" placeholder="enter crop name" name="v4crop"></td>
+                    <td><input class="inputbox" value="{{data.v4.v4price}}" placeholder="enter price" name="v4price"></td>
+                    <td><input class="inputbox" value="{{data.v4.v4unit}}" placeholder="enter unit" name="v4unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr>
+                <td colspan="8" class="ad">
+                    <h2>Anajon ka bhav</h2>
+                </td>
+            </tr>
+            </tr>
+            <tr class="wheat">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="wheat" name="id">
+                    <td id="wheat">Wheat ( गेहूं )</td>
+                    <td><input class="inputbox" value="{{data.wheat.wheatprice}}" name="wheatprice"></td>
+                    <td><input class="inputbox" value="{{data.wheat.wheatunit}}" name="wheatunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="maize">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="maize" name="id">
+                    <td id="maize"> Maize ( मक्का)</td>
+                    <td><input class="inputbox" value="{{data.maize.maizeprice}}" name="maizeprice"></td>
+                    <td><input class="inputbox" value="{{data.maize.maizeunit}}" name="maizeunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="millet">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="millet" name="id">
+                    <td id="millet">Millet (बाजरा)</td>
+                    <td><input class="inputbox" value="{{data.millet.milletprice}}" name="milletprice"></td>
+                    <td><input class="inputbox" value="{{data.millet.milletunit}}" name="milletunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="oat">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="oat" name="id">
+                    <td id="oat">oat (जौ)</td>
+                    <td><input class="inputbox" value="{{data.oat.oatprice}}" name="oatprice"></td>
+                    <td><input class="inputbox" value="{{data.oat.oatunit}}" name="oatunit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+
+            </tr>
+            <tr class="rice">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="rice" name="id">
+                    <td id="rice">Rice(धान )</td>
+                    <td><input class="inputbox" value="{{data.rice.riceprice}}" name="riceprice"></td>
+                    <td><input class="inputbox" value="{{data.rice.riceunit}}" name="riceunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="d1" name="id">
+                    <td class="bittergourd"> <input class="inputbox" value="{{data.d1.d1crop}}" placeholder="enter crop name" name="d1crop"></td>
+                    <td><input class="inputbox" value="{{data.d1.d1price}}" placeholder="enter price" name="d1price"></td>
+                    <td><input class="inputbox" value="{{data.d1.d1unit}}" placeholder="enter unit" name="d1unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="d2" name="id">
+                    <td class="bittergourd"> <input class="inputbox" value="{{data.d2.d2crop}}" placeholder="enter crop name" name="d2crop"></td>
+                    <td><input class="inputbox" value="{{data.d2.d2price}}" placeholder="enter price" name="d2price"></td>
+                    <td><input class="inputbox" value="{{data.d2.d2unit}}" placeholder="enter unit" name="d2unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="d3" name="id">
+                    <td class="bittergourd"> <input class="inputbox" value="{{data.d3.d3crop}}" placeholder="enter crop name" name="d3crop"></td>
+                    <td><input class="inputbox" value="{{data.d3.d3price}}" placeholder="enter price" name="d3price"></td>
+                    <td><input class="inputbox" value="{{data.d3.d3unit}}" placeholder="enter unit" name="d3unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="d4" name="id">
+                    <td class="bittergourd"> <input class="inputbox" value="{{data.d4.d4crop}}" placeholder="enter crop name" name="d4crop"></td>
+                    <td><input class="inputbox" value="{{data.d4.d4price}}" placeholder="enter price" name="d4price"></td>
+                    <td><input class="inputbox" value="{{data.d4.d4unit}}" placeholder="enter unit" name="d4unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr>
+                <td colspan="8" class="ad">
+                    <h4> Dalo ka bhav</h4>
+                </td>
+            </tr>
+            <tr class="greengram">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="greengram" name="id">
+                    <td id="greengram">Green Gram (मूंग )</td>
+                    <td><input class="inputbox" value="{{data.greengram.greengramprice}}" name="greengramprice"></td>
+                    <td><input class="inputbox" value="{{data.greengram.greengramunit}}" name="greengramunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="blackgram">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="blackgram" name="id">
+                    <td id="blackgram">Black Gram ( उड़द )</td>
+                    <td><input class="inputbox" value="{{data.blackgram.blackgramprice}}" name="blackgramprice"></td>
+                    <td><input class="inputbox" value="{{data.blackgram.blackgramunit}}" name="blackgramunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="chickpeas">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="chickpeas" name="id">
+                    <td id="chickpeas">Chickpeas ( चना)</td>
+                    <td><input class="inputbox" value="{{data.chickpeas.chickpeasprice}}" name="chickpeasprice"></td>
+                    <td><input class="inputbox" value="{{data.chickpeas.chickpeasunit}}" name="chickpeasunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="kidneybeans">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input  type="hidden" value="kidneybeans" name="id">
+                    <td id="kidneybeans">Kidney Beans ( राजमा)</td>
+                    <td><input class="inputbox" value="{{data.kidneybeans.kidneybeansprice}}" name="kidneybeansprice"></td>
+                    <td><input class="inputbox" value="{{data.kidneybeans.kidneybeansunit}}" name="kidneybeansunit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+
+            </tr>
+            <tr class="pigeonpea">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="pigeonpeas" name="id">
+                    <td id="pigeonpea">Pigeon Pea (अरहर)</td>
+                    <td><input class="inputbox" value="{{data.pigeonpeas.pigeonpeasprice}}" name="pigeonpeasprice"></td>
+                    <td><input class="inputbox" value="{{data.pigeonpeas.pigeonpeasunit}}" name="pigeonpeasunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="greenpeas">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="greenpeas" name="id">
+                    <td id="greenpeas">Green Peas( हरी मटर)</td>
+                    <td><input class="inputbox" value="{{data.greenpeas.greenpeasprice}}" name="greenpeasprice"></td>
+                    <td><input class="inputbox" value="{{data.greenpeas.greenpeasunit}}" name="greenpeasunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="whitepeas">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="whitepeas" name="id">
+
+                    <td id="whitepeas">White Peas (सफेद मटर )</td>
+                    <td><input class="inputbox" value="{{data.whitepeas.whitepeasprice}}" name="whitepeasprice"></td>
+                    <td><input class="inputbox" value="{{data.whitepeas.whitepeasunit}}" name="whitepeasunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="soybean">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="soyabean" name="id">
+                    <td id="soybean">Soybean ( सोयाबीन)</td>
+                    <td><input class="inputbox" value="{{data.soyabean.soyabeanprice}}" name="soyabeanprice"></td>
+                    <td><input class="inputbox" value="{{data.soyabean.soyabeanunit}}" name="soyabeanunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+
+
+
+            <tr class="mustard">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="mustard" name="id">
+                    <td id="mustard">Mustard(सरसों)</td>
+                    <td><input class="inputbox" value="{{data.mustard.mustardprice}}" name="mustardprice"></td>
+                    <td><input class="inputbox" value="{{data.mustard.mustardunit}}" name="mustardunit"></td>
+
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="c1" name="id">
+                    <td class="bittergourd"> <input class="inputbox" value="{{data.c1.c1crop}}" placeholder="enter crop name" name="c1crop"></td>
+                    <td><input class="inputbox" value="{{data.c1.c1price}}" placeholder="enter price" name="c1price"></td>
+                    <td><input class="inputbox" value="{{data.c1.c1unit}}" placeholder="enter unit" name="c1unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon"method="POST">
+                    <input type="hidden" value="c2" name="id">
+                    <td class="bittergourd"> <input class="inputbox" value="{{data.c2.c2crop}}" placeholder="enter crop name" name="c2crop"></td>
+                    <td><input class="inputbox" value="{{data.c2.c2price}}" placeholder="enter price" name="c2price"></td>
+                    <td><input class="inputbox" value="{{data.c2.c2unit}}" placeholder="enter unit" name="c2unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="bittergourd">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="c3" name="id">
+                    <td class="bittergourd"> <input class="inputbox" value="{{data.c3.c3crop}}" placeholder="enter crop name" name="c3crop"></td>
+                    <td><input class="inputbox" value="{{data.c3.c3price}}" placeholder="enter price" name="c3price"></td>
+                    <td><input class="inputbox" value="{{data.c3.c3unit}}" placeholder="enter unit" name="c3unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="c4" name="id">
+                    <td class=""> <input class="inputbox" value="{{data.c4.c4crop}}" placeholder="enter crop name" name="c4crop"></td>
+                    <td><input class="inputbox" value="{{data.c4.c4price}}" placeholder="enter price" name="c4price"></td>
+                    <td><input class="inputbox" value="{{data.c4.c4unit}}" placeholder="enter unit" name="c4unit"></td>
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+            <tr class="">
+                <form action="/uttarpradesh/Chirgaon" method="POST">
+                    <input type="hidden" value="author" name="id">
+                  <td> <input class="inputbox" value="{{data.author.name}}" placeholder="Upload BY Name" name="name"></td>
+                   
+                    
+                    <td><button id="tomatobtn"> update</button></td>
+                </form>
+            </tr>
+
+        </table>
+
+
+
+
+
+
+    </div>
+    {{>footer}}
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,10 @@
+#data{
+    width: 100%;
+    height: 1000px;
+}
+.form{
+    border: 3px solid rgb(11, 12, 11);
+}
+#file_name{
+    margin-bottom: 30px;
+}

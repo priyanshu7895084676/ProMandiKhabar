@@ -1,0 +1,362 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    margin: 0px;
+    
+}
+
+
+#tableheading{
+   background-color: rgb(37, 114, 88);
+}
+.crop{
+    width: 30%;
+}
+
+#table{
+    height: 100%;
+    width: 70%;
+    
+    font-family: 'Hind', sans-serif;
+    font-size: 2.4rem;
+    margin-left: 10rem;
+    border: 2px solid black;
+}
+#adsence{
+    height: auto;
+    width: auto;
+    
+}
+
+.ad{
+    width: 20%;
+    height: 100%;
+}    
+
+
+
+
+
+
+       
+        .navbar{
+            display: flex;
+            background-color: rgb(10, 165, 36);
+           flex-direction: row;
+        margin-top: 0px;
+        width: 100%;
+            
+          }
+          .webname{
+              display: flex;
+              justify-content: center;
+            font-size: 2rem;
+            margin: 0rem;
+            width: auto;
+           
+            background: rgb(10, 165, 36);;
+        }
+          .navbar div{
+          
+            list-style: none; 
+            padding: 1.3rem 2.0rem;
+            font-size: 5.0rem;
+            font-weight: bold;
+            
+            color: blanchedalmond;
+            
+        }
+        .btn{
+            margin: .1rem;
+        }
+        
+        .navbar div a{
+            text-decoration: none;
+            padding: .13rem;
+            margin: .1rem;
+        }
+        .navbar div a:hover {
+            
+            background: #fff;
+            color: brown;
+            
+        }
+        
+        #search{
+            
+            color: rgb(207, 200, 200);
+            /*padding: 1.2rem 2.5rem;*/
+            width: 6rem;
+            border-radius: .5rem;
+        }
+        
+        
+        
+        .name{
+            font: 3em sans-serif;
+            padding-left: 40%;
+        }
+        
+        
+        @media only screen and (max-width: 990px) {
+           
+            html{
+                font-size: 55.5%;
+            }
+            
+            .navbar{
+                display:flex;
+                flex-wrap: wrap;
+               
+               font-size: 10px;
+        
+            }
+            .btn a{
+                font-size:40% ;
+            }
+            
+            
+        }
+            @media only screen and (max-width:700px){
+                #table{
+            
+                    margin-left:0px;
+                    width: 100%;
+                    font-size: 15px;
+                }
+                #adsence{
+                    display:none;
+                }
+            }
+        
+        @media only screen and (max-width:600px){
+            html{
+                font-size: 30.5%;
+            } 
+        .navbar{
+            display:flex;
+            flex-wrap: wrap;
+            font-size: 20%;
+            width: 100%;
+    
+        }
+        .inputbox{
+            width: 50px;
+            height: auto;
+        }
+        .btn a{
+            font-size: 15px ;
+        }
+        #table{
+            font-size: 15px;
+            margin-left:0px;
+            width:100%;
+        }
+        #adsence{
+            display:none;
+        }
+        
+        }
+        @media only screen and (max-width:400px){
+            html{
+                font-size: 20.5%;
+            } 
+        .navbar{
+            display:flex;
+            flex-wrap: wrap;
+            font-size: 20%;
+            width: 100%;
+    
+        }
+        
+        #table{
+            font-size: 10px;
+            width: 100%;
+        }
+        .btn a{
+            font-size:10px;
+        }
+        #adsence{
+            display:none;
+        }
+        
+        }
+        @media only screen and (max-width:320px){
+            html{
+                font-size:15.5%;
+            } 
+        .navbar{
+            display:flex;
+            flex-wrap: wrap;
+            font-size: 10px;
+            width: 100%;
+    
+        }
+        #table{
+            font-size: 10px ;
+            margin-left:0px;
+            
+        }
+        .webname{
+            font-size: 15px;
+        }
+        .btn a{
+            font-size: 10px;
+        }
+        #adsence{
+            display:none;
+        }
+        .item{
+            font-size: 10px;
+        }
+        
+        }
+        
+        @media only screen and (max-width: 280px){
+            html{
+                font-size:10.5%;
+            } 
+        .navbar{
+            display:flex;
+            flex-wrap: wrap;
+            font-size: 20%;
+            width: auto;
+           
+           
+    
+        }
+        #table{
+            font-size: 10px;
+        }
+        .btn a{
+            font-size: 10px;
+        }
+        .webname{
+            font-size: 5px;
+        }
+        #adsence{
+            display:none;
+        }
+        .item{
+            font-size: 10px;
+        }
+        .container{
+            overflow-y: scroll;
+        }
+        @media only screen and (max-width: 200px){
+           
+        
+            #table{
+                
+                font-size:10px;
+                
+                
+            }
+            .container{
+                overflow-y: scroll;
+            }
+
+        }
+        .navbar{
+            display:flex;
+            flex-wrap: wrap;
+            font-size: 10px;
+            width: auto;
+           
+           
+    
+        }
+          
+          }
+          
+
+          
+/* footer css*/
+.footerbox{
+    
+    background: #141414a4;
+    height: 18rem;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+#about{
+    display:flex;
+    flex-wrap: wrap;
+    
+    font-size: 3rem;
+justify-content: center;
+ color: white;
+
+}
+
+
+#about a{
+    text-decoration: none;
+    color: rgb(226, 208, 208);
+    padding: 1rem;
+}
+    
+.item{
+    margin: .4rem;
+    margin-top: 2.0rem;
+    text-decoration: none;
+    
+}
+#about a:hover{
+    color: rgb(124, 103, 71);
+    background: brown;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    
+    height: 4.0rem;
+    background-color: rgb(65, 63, 63);
+    padding-top: 2rem;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 1.0rem;
+}
+
+#facebook{
+    height: 5.0rem;
+    width: 5.0rem;
+    margin: .2rem;
+    border: style 0.1rem solid black;
+   
+    background-size: 5.0rem ,5.0rem;
+    border-image-repeat: none;
+    border-radius: .4rem;
+
+}
+#twiter{
+    height: 5.0rem;
+    width: 5rem;
+    margin: .2rem;
+    
+    background-size: 5rem ,5rem;
+   background-repeat: no-repeat;
+   border-radius: .4rem;
+}
+#instagram{
+    height: 5rem;
+    width: 5rem;
+    margin: .2rem;
+    
+    
+    background-size: 5.0rem ,5.0rem;
+    border-radius: .4rem;
+    
+}
+
+            

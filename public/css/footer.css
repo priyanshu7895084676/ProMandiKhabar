@@ -1,0 +1,99 @@
+/*footer css*/
+html{
+    font-size: 62.5%;
+   
+}
+.footerbox{
+    
+    background: #141414a4;
+    height: 18rem;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+#about{
+    display:flex;
+    flex-wrap: wrap;
+    
+    font-size: 3rem;
+justify-content: center;
+ color: white;
+
+}
+
+
+#about a{
+    text-decoration: none;
+    color: rgb(226, 208, 208);
+    padding: 1rem;
+}
+    
+.item{
+    margin: .4rem;
+    margin-top: 2.0rem;
+    text-decoration: none;
+    
+}
+#about a:hover{
+    color: rgb(124, 103, 71);
+    background: brown;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    
+    height: 4.0rem;
+    background-color: rgb(65, 63, 63);
+    padding-top: 2rem;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 1.0rem;
+}
+
+#facebook{
+    height: 5.0rem;
+    width: 5.0rem;
+    margin: .2rem;
+    border: style 0.1rem solid black;
+   
+    background-size: 5.0rem ,5.0rem;
+    border-image-repeat: none;
+    border-radius: .4rem;
+
+}
+#twiter{
+    height: 5.0rem;
+    width: 5rem;
+    margin: .2rem;
+    
+    background-size: 5rem ,5rem;
+   background-repeat: no-repeat;
+   border-radius: .4rem;
+}
+#instagram{
+    height: 5rem;
+    width: 5rem;
+    margin: .2rem;
+   
+    background-size: 5.0rem ,5.0rem;
+    border-radius: .4rem;
+    
+}
+/*@media only screen and (max-width: 640px)  {
+html{
+    font-size: 30%;
+
+}
+}
+@media only screen and (max-width: 240px){
+    
+    #about{
+        font-size: 25%;
+        display:flex;
+        flex-wrap: nowrap;
+    }
+}
+    */

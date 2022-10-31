@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+       <link rel="stylesheet" href="../css/adsence.css">
+        <link rel="stylesheet" href="../css/farrukhabadtable.css">
+     <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/mandi-news-5a86b.appspot.com/o/css%2Ffarrukhabadtable.css?alt=media&token=f4731f6b-410e-4262-8f44-91329c6637cd">
+     <link rel="stylesheet" href="../css/footer.css">    
+</head>
+<body>
+    {{>header}}
+    {{>adsence}}
+    <div class="container">
+        
+   <table id="table" border=".5">
+                <tr id="tableheading">
+                    <th>Crop (फसल)
+</th>
+                    <th>Price( कीमत)
+</th>
+                    <th>Unit(इकाई)
+</th>
+                </tr>
+                {{#each data}}
+                <tr class="tomoto">
+                    <td  id="tomoto">Tomato (टमाटर )</td>
+                    <td>{{this.tomatoprice}}</td>
+                    <td>{{this.tomatounit}}</td>
+                    
+                    
+                </tr>
+                
+                
+                 <tr class="onion">
+                    <td id="onion">	Onion (प्याज)</td>
+                    <td>{{this.onionprice}}</td>
+                    <td>{{this.onionunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="turnip">
+                    <td id="turnip">Turnip ( शलजम )</td>
+                    <td>{{this.turnipprice}}</td>
+                    <td>{{this.turnipunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class=" turmerc">
+                    <td id="turmeric">Turmeric (हल्दी )</td>
+                    <td>{{this.turmericprice}}</td>
+                    <td>{{this.turmericunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="sweetpotato">
+                    <td id="sweetpotato">Sweet Potato(शकरकंद )</td>
+                    <td>{{this.sweetpotatoprice}}</td>
+                    <td>{{this.sweetpotatounit}}</td>
+                    
+                    
+                </tr>
+                <tr class="potato">
+                    <td  id="yellowpotato">Yellow potato पीला आलू</td>
+                          
+                        
+                            
+         
+                    <td>{{this.yellowpotatoprice}}</td>
+                    <td>{{this.yellowpotatounit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="potato">
+                    <td id="whitepotato">White potato सफेद आलू</td>
+                    <td>{{this.whitepotatoprice}}</td>
+                    <td>{{this.whitepotatounit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="potato">
+                    <td id="redpotato">Red potato लाल आलू</td>
+                    <td>{{this.redpotatoprice}}</td>
+                    <td>{{this.redpotatounit}}</td>
+                    
+                    
+                </tr>
+                 <tr class=" springonion">
+                    <td id="springonion">	Spring Onion(हरा प्याज, गंठा)</td>
+                    <td>{{this.springonionprice}}</td>
+                    <td>{{this.springonionunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="spinch">
+                    <td id="spinch">Spinach (पालक )</td>
+                    <td>{{this.spianchprice}}</td>
+                    <td>{{this.spianchunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="pumpkin">
+                    <td id="pumpkin">	Pumpkin (घिया, कद्दू )</td>
+                    <td>{{this.pumpkinprice}}</td>
+                    <td>{{this.pumpkinunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="garlic">
+                    <td id "garlic">Garlic (लहशुन)</td>
+                    <td>{{this.garlicprice}}</td>
+                    <td>{{this.garlicunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="fenugreekleaf">
+                    <td id="fenugeekleaf">Fenugreek Leaf (हरी मेथी)</td>
+                    <td>{{this.fenugeekleafprice}}</td>
+                    <td>{{this.fenugeekleafunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="ginger">
+                    <td id="ginger">	Ginger (	अदरक)</td>
+                    <td>{{this.gingerprice}}</td>
+                    <td>{{this.gingerunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="greenchilli">
+                    <td class="greenchilli">	Green Chilli (	हरी मिर्च)</td>
+                    <td>{{this.greenchilliprice}}</td>
+                    <td>{{this.greenchilliunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class=" radish">
+                    <td id="radish">Radish (मूली)</td>
+                    <td>{{this.radishprice}}</td>
+                    <td>{{this.radishunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="jackfruit">
+                    <td id="jackfruit">Jackfruit (	कटहल)</td>
+                    <td>{{this.jackfruitprice}}</td>
+                    <td>{{this.jackfruitunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="ladyfinger">
+                    <td id="ladyfinger">Lady Finger (भिन्डी )</td>
+                    <td>{{this.ladyfingerprice}}</td>
+                    <td>{{this.ladyfingerunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="pointedgourd">
+                    <td id="pointedgourd">Pointed Gourd (परवल, पटल)</td>
+                    <td>{{this.pointedgourdprice}}</td>
+                    <td>{{this.pointedgourdunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="ridgedgourd">
+                    <td>Ridged Gourd (तोरी, झींगी)</td>
+                    <td>{{this.ridgedgourdprice}}</td>
+                    <td>{{this.ridgedgourdunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="peas">
+                    <td id="peas">Peas (मटर )</td>
+                    <td>{{this.peasprice}}</td>
+                    <td>{{this.peasunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="cucumber">
+                    <td id="cucumber">Cucumber (खीरा)</td>
+                    <td>{{this.cucumberprice}}</td>
+                    <td>{{this.cucumberunit}}</td>
+                    
+                    
+                </tr>
+                 <tr class="coriander">
+                    <td id="coriander ">	Coriander Leaf (हरा धनिया पत्ता)</td>
+                    <td>{{this.corianderleafprice}}</td>
+                    <td>{{this.corianderleafunit}}</td>
+                    
+                    
+                </tr>
+                 
+                 <tr class="cauliflower">
+                    <td id="cauliflower">Cauliflower (	फूल गोभी)</td>
+                    <td>{{this.cauliflowerprice}}</td>
+                    <td>{{this.cauliflowerunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="carrot">
+                    <td id="carrot">	Carrot (	गाजर )</td>
+                   
+                    <td>{{this.carrotprice}}</td>
+                    <td>{{this.carrotunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="capsion">
+                    <td id="capsion">Capsicum(		शिमला मिर्च )</td>
+                    <td>{{this.capsicumprice}}</td>
+                    <td>{{this.capsicumunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="cabbage">
+                    <td id="cabbage">	Cabbage(		पत्ता गोभी )</td>
+                    <td>{{this.cabbageprice}}</td>
+                    <td>{{this.cabbageunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="brinjal">
+                    <td id="brinjal">Brinjal (	बैगन)</td>
+                    <td>{{this.brinjalprice}}</td>
+                    <td>{{this.brinjalunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="bottlegourd">
+                    <td id="bottlegourd">Bottle Gourd  (		लौकी,)</td>
+                    <td>{{this.bottlegourdprice}}</td>
+                    <td>{{this.bottlegourdunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="bittergourd">
+                    <td class="bittergourd">	Bitter Gourd (			करेला )</td>
+                    <td>{{this.bittergourdprice}}</td>
+                    <td>{{this.bittergourdunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="wheat">
+                    <td id="wheat">Wheat ( गेहूं )</td>
+                    <td>{{this.wheatprice}}</td>
+                    <td>{{this.wheatunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="maize">
+                    <td id="maize"> Maize ( मक्का)</td>
+                    <td>{{this.maizeprice}}</td>
+                    <td>{{this.maizeunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="millet">
+                    <td id="millet">Millet  (बाजरा)</td>
+                    <td>{{this.milletprice}}</td>
+                    <td>{{this.milletunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="oat">
+                    <td id="oat">oat (जौ)</td>
+                    <td>{{this.oatprice}}</td>
+                    <td>{{this.oatunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="rice">
+                    <td id="rice">Rice(धान )</td>
+                    <td>{{this.riceprice}}</td>
+                    <td>{{this.riceunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="greengram">
+                    <td id="greengram">Green Gram (मूंग	)</td>
+                    <td>{{this.greengramprice}}</td>
+                    <td>{{this.greengramunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="blackgram">
+                    <td id="blackgram">Black Gram (	उड़द )</td>
+                    <td>{{this.blackgramprice}}</td>
+                    <td>{{this.blackgramunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="chickpeas">
+                    <td id="chickpeas">Chickpeas (	चना)</td>
+                    <td>{{this.chickpeasprice}}</td>
+                    <td>{{this.chickpeasunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="kidneybeans">
+                    <td id="kidneybeans">Kidney Beans (	राजमा)</td>
+                    <td>{{this.kidneybeansprice}}</td>
+                    <td>{{this.kidneybeansunit}}</td>
+                    
+                    
+                </tr> 
+                <tr class="pigeonpea">
+                    <td id="pigeonpea">Pigeon Pea (अरहर)</td>
+                    <td>{{this.pigeonpeasprice
+}}</td>
+                    <td>{{this.pigeonpeasunit}}</td>
+                    
+                    
+                </tr> 
+                <tr class="greenpeas">
+                    <td id="greenpeas">Green Peas(	हरी मटर)</td>
+                    <td>{{this.greenpeasprice}}</td>
+                    <td>{{this.greenpeasunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="whitepeas">
+                    <td id="whitepeas">White Peas (सफेद मटर	)</td>
+                    <td>{{this.whitepeasprice}}</td>
+                    <td>{{this.whitepeasunit}}</td>
+                    
+                    
+                </tr>
+                <tr class="soybean">
+                    <td id="soybean">Soybean (	सोयाबीन)</td>
+                    <td>{{this.soybeanprice}}</td>
+                    <td>{{this.soyabeanunit}}</td>
+                    
+                    
+                </tr>
+                
+                    
+                    
+                <tr class="mustard">
+                    <td id="mustard">Mustard(सरसों)</td>	
+                    <td>{{this.mustardprice}}</td>
+                    <td>{{this.mustardunit}}</td>
+                    
+                    
+                </tr>
+                {{/each}}
+
+            </table>
+            
+             <div id="adsence">adsence</div>  
+            </div>
+           
+            {{>footer}}
+</body>
+</html>

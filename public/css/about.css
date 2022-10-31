@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Baloo Bhai 2';
+    font-size: 2rem;
+
+
+}
+.abouth h1{
+   color: rgba(78, 43, 54, 0.788)
+   
+   
+}
+.vision {
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+
+    
+    
+}
+.mission{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/mandi-news-5a86b.appspot.com/o/css%2Flogin.css?alt=media&token=52fc939b-35d1-4182-babc-5900d1fd4a82">
+  <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+  {{>header}}
+  <div id="login">
+    <form class="login" action="/registeremp" method="POST">
+      <p>Log In</p>
+      <input type="text" placeholder="Enter name" name="name" value="">
+     <input type="text" placeholder="Enter Id " name="email" value="">
+      <input type="password" placeholder="Enter Password" name="password" value="">
+      <input type="text" placeholder="Enter role" name="role" value="">
+      <input type="text" placeholder="Enter phone" name="phone" value="">
+      <input type="text" placeholder="Enter file" name="file" value="">
+      <button type="submit">Login</button>
+      
+    </form>
+  </div>
+
+  {{>footer}}
+
+
+</body>
+
+</html>

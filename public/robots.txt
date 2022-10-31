@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /uttarprasesh
+Allow: /uttarprasesh/Agra
+Allow: /uttarprasesh/farrukhabad
+Allow: /uttarprasesh/Kannauj
+
+Disallow: /about.html
+Disallow: /cont.html
+Disallow: /privacy.html
+
+sitemap:https://mandikhabar.com/sitemap.xml

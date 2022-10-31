@@ -1,0 +1,139 @@
+html{
+    font-size: 62.5%;
+}
+
+.totaldisticmandi{
+    display: flex;
+    
+    flex-direction: column;
+    width: 100%;
+    border-style: solid;
+    background-color: rgb(247, 240, 240);
+    border-width: .2rem;
+   
+    border-color: black;
+    
+}
+.totaldisticmandi a{
+    text-decoration: none;
+}
+#name1{
+    height: 7rem;
+    border-style: solid; 
+    border-width: .2rem;
+    border-color: black;
+    margin: .2rem;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(243, 245, 126);
+
+}
+#name2{
+    height: 7rem;
+    border-style: solid; 
+    border-width: .2rem;
+    border-color: black;
+    margin: .2rem;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(243, 245, 126);
+
+}
+#name3{
+    height: 7rem;
+    border-style: solid; 
+    border-width: .2rem;
+    border-color: black;
+    margin: .2rem;text-align: center;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: .2rem;
+    border-radius: 1rem;
+    background-color: rgb(243, 245, 126);
+
+}
+#name4{
+    height: 7rem;
+    border-style: solid; 
+    border-width: .2rem;
+    border-color: black;
+    margin: .2rem;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: .2rem;
+    border-radius: 1rem;
+    background-color: rgb(243, 245, 126);
+
+}
+@media only screen and (max-width: 990px) {
+   
+    html{
+        font-size: 40%;
+    }
+    
+    .navbar{
+        display:flex;
+        flex-wrap: nowrap;
+       
+        
+
+    }
+    .btn a{
+        font-size:40%;
+    }
+}
+
+
+
+@media only screen and (max-width: 640px) {
+   
+    html{
+        font-size: 30.5%;
+    }
+    
+    .navbar{
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        font-size: 10%;
+
+    }
+    .webname{
+        font-size: 10px;
+    }
+    #name1{
+       
+        font-size: 30px;
+    }
+    #name2{ font-size: 30px;}
+     
+    #name3{ font-size: 30px;}
+    #name4{ font-size: 30px;}
+}
+  
+    @media only screen and (max-width: 240px) {
+        #mn{
+            font-size: 20px;
+        }
+        #name1{
+       
+            font-size: 20px;
+        }
+        #name2{font-size: 20px;}
+         
+        #name3{ font-size: 20px;}
+        #name4{font-size: 20px;}
+        .item{
+            font-size: 15px;
+        }
+    }
+    @media only screen and (max-width: 240px) {
+        #mname{
+            font-size: 20px;
+        }
+        .item{ font-size: 10px;}
+    }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+   <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/mandi-news-5a86b.appspot.com/o/css%2Fheader.css?alt=media&token=29997d95-68df-4bc7-9088-fb76913292c3">
+    <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/mandi-news-5a86b.appspot.com/o/css%2Fadd.css?alt=media&token=4e09f028-c178-4587-92db-b4b29b05c596">
+    <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/mandi-news-5a86b.appspot.com/o/css%2Ffeedback.css?alt=media&token=1f09e33c-31f5-4dfe-8da3-41feac8bb3f7">
+    <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/mandi-news-5a86b.appspot.com/o/css%2Ffooter.css?alt=media&token=40758826-7e5a-42e4-94a3-19f9658b7dd0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    {{>header}}
+    {{>adsence}}
+    <div class="contect">
+        <h1>Give the feedback or suggestion for better experience</h1>
+        <div class="contectitem">
+            <form action="/data/feedback" method="post">
+                <label for="name">Name:</label></label> <input type="text" placeholder=" enter the name" name="name" maxlength="30" ><br>
+                <label for="email">Email:</label> <input type="email" placeholder=" enter the email" name="email" maxlength="40" ><br>
+                <label for="message">Message:</label> <input type="text" name="message" class="message" placeholder=" Type the message" maxlength="300" > <br>
+                <button type="submit" class="sbtn">Submit</button>
+            </form>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>

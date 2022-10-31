@@ -1,0 +1,118 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0px;
+    
+}
+
+
+
+
+
+
+.navbar{
+    display: flex;
+    background-color: rgb(10, 165, 36);
+   
+   
+    flex-direction: row;
+margin-top: 0px;
+width: 100%;
+    
+  }
+  .webname{
+      display: flex;
+      justify-content: center;
+    font-size: 2rem;
+    margin: 0rem;
+    width: auto;
+   
+    background: rgb(10, 165, 36);;
+}
+  .navbar div{
+  
+    list-style: none; 
+    padding: 1.3rem 2.0rem;
+    font-size: 5.0rem;
+    font-weight: bold;
+    
+    color: blanchedalmond;
+    
+}
+.btn{
+    margin: .1rem;
+}
+
+.navbar div a{
+    text-decoration: none;
+    padding: .13rem;
+    margin: .1rem;
+}
+.navbar div a:hover {
+    
+    background: #fff;
+    color: brown;
+    
+}
+
+#search{
+    
+    color: rgb(207, 200, 200);
+    /*padding: 1.2rem 2.5rem;*/
+    width: 6rem;
+    border-radius: .5rem;
+}
+
+
+
+.name{
+    font: 3em sans-serif;
+    padding-left: 40%;
+}
+
+
+/*@media only screen and (max-width: 990px) {
+   
+    html{
+        font-size: 40%;
+    }
+    
+    .navbar{
+        display:flex;
+        flex-wrap: nowrap;
+       
+        
+
+    }
+    .btn a{
+        font-size:40%;
+    }
+}
+
+
+
+/*@media only screen and (max-width: 640px) {
+   
+    html{
+        font-size: 30.5%;
+    }
+    
+    .navbar{
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        font-size: 10%;
+
+    }
+    .webname{
+        font-size: 10px;
+    }
+     
+
+}*/
+  
+
+  
+  

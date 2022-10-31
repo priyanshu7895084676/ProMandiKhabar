@@ -1,0 +1,21 @@
+.contect{
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo Bhai 2';font-size: 2rem;
+    text-align: center;
+    
+    flex-direction: column;
+}
+.contectitem{
+    border: 2px solid black;
+    font-family: 'Baloo Bhai 2';
+    font-size: 2rem;
+    height: 25rem;
+    width: 40rem;
+    border-radius: 1rem;
+}
+.message{
+    height: 10rem;
+    width: 15rem;
+    
+}

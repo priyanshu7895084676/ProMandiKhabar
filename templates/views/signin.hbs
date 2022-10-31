@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signin </title>
+    <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/mandi-news-5a86b.appspot.com/o/css%2Fheader.css?alt=media&token=29997d95-68df-4bc7-9088-fb76913292c3">
+    <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/mandi-news-5a86b.appspot.com/o/css%2Flogin.css?alt=media&token=52fc939b-35d1-4182-babc-5900d1fd4a82">
+    <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/mandi-news-5a86b.appspot.com/o/css%2Ffooter.css?alt=media&token=40758826-7e5a-42e4-94a3-19f9658b7dd0">
+</head>
+
+<body>
+   {{>header}}
+    <main>
+        <section>
+            <form id="login" action="/signin" method="post">
+                <label>Login</label>
+                <input type="text" name="email" />
+                <label>Password</label>
+                <input type="password" name="password" />
+                <button>Log in</button>
+            </form>
+        </section>
+
+        
+    </main>
+    {{>footer}}
+</body>
+
+</html>

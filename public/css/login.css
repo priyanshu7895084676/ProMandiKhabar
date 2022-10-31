@@ -1,0 +1,37 @@
+.login{
+   display: grid;
+   
+    
+    gap: 30px;
+   
+    align-content: center;
+    width: auto;
+    margin-left: auto;
+    margin: auto;
+    grid-area: auto;
+    
+    
+}
+.cantainerbox { 
+  
+    margin: auto;
+    width: 50%;
+    height: 300px;
+    border: 3px solid green;
+    padding: 10px;
+    background: rgb(10, 9, 9);
+    
+}
+
+#log{
+    display: flex;
+    align-content: center;
+}
+
+
+@media only screen and (max-width:300px){
+.cantainerbox{
+    margin: 0px;
+    width: 100%;
+}
+}
